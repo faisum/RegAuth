@@ -4,22 +4,21 @@ const Register = () => {
   return (
     <div>
 
-      <div className='flex justify-center items-center
-       border-radius-2xl m-auto'>
+      <div className='flex justify-center items-center '>
 
-        <form className='flex flex-col m-25 p-15' action="post">
+        <form className='flex flex-col space-y-4 m-25 p-15 bg-emerald-300' action="post">
 
-          <h2 className=' text-center text-4xl  '>Registration Page</h2>
+          <h2 className=' text-center text-4xl font-semibold '>Registration Page</h2>
 
-          <textarea name="name" placeholder='name' id=""></textarea>
+          <textarea className='border-1 px-2 rounded content-center' name="name" placeholder='name' id=""></textarea>
 
-          <textarea name="email" placeholder='email' id=""></textarea>
+          <textarea className='border-1 px-2 rounded content-center' name="email" placeholder='email' id=""></textarea>
 
-          <textarea name="phone-number" placeholder='phone-number' id=""></textarea>
+          <textarea className='border-1 px-2 rounded content-center' name="phone-number" placeholder='phone-number' id=""></textarea>
+          
+          <textarea className='border-1 px-2  rounded content-center' name="password" placeholder='password' id=""></textarea>
 
-          <textarea name="password" placeholder='password' id=""></textarea>
-
-          <button className="bg-blue-500 text-white px-4 py-2 rounded">Register</button>
+          <button className="bg-blue-500 m-auto text-white px-5 py-2 rounded">Register</button>
 
         </form>
 
