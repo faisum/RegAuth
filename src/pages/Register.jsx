@@ -4,11 +4,12 @@ const Register = () => {
   return (
     <div>
 
-      <div>
+      <div className='flex justify-center items-center
+       border-radius-2xl m-auto'>
 
-        <form action="post">
+        <form className='flex flex-col m-25 p-15' action="post">
 
-          <h2>Registration Page</h2>
+          <h2 className=' text-center text-4xl  '>Registration Page</h2>
 
           <textarea name="name" placeholder='name' id=""></textarea>
 
@@ -18,7 +19,7 @@ const Register = () => {
 
           <textarea name="password" placeholder='password' id=""></textarea>
 
-          <button>Register</button>
+          <button className="bg-blue-500 text-white px-4 py-2 rounded">Register</button>
 
         </form>
 
