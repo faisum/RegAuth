@@ -12,6 +12,7 @@ const Login = () => {
             
             <button className='bg-blue-400 m-auto text-white px-5 py-2 rounded' type="submit">Login</button>
             
+            <a href="/Registration Page">Don't have an account? <li className='list-none text-cyan-100'>Register here</li></a>
         </form>
     </div>
   )

@@ -20,6 +20,8 @@ const Register = () => {
 
           <button className="bg-blue-500 m-auto text-white px-5 py-2 rounded">Register</button>
 
+          <a href="/">Already have an account? <li className='list-none text-cyan-100'>Login</li></a>
+
         </form>
 
       </div>
