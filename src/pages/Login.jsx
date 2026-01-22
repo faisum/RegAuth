@@ -10,11 +10,6 @@ const Login = () => {
     e.preventDefault();
   const storedUser=JSON.parse(localStorage.getItem("user"));
 
-  if(!storedUser){
-    alert("No user found, please register first");
-    return;
-  }
-
   if(
     storedUser.email===email &&
     storedUser.password===password
@@ -22,6 +17,11 @@ const Login = () => {
     alert("Login Successful");
   }else{
     alert("Invalid Credentials");
+  }
+
+   if(!storedUser){
+    alert("No user found, please register first");
+    return;
   }
   };
   return (
